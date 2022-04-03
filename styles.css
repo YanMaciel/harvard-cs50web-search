@@ -1,5 +1,78 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* Shared between the three */
+.div-line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* Google Search */
+
+/* Image Search */
+
+/* Advanced Search */
+body {
+  font-family: arial, sans-serif;
+  display: block;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  width: 100%;
+  margin-top: 5px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav-logo-wrapper {
+  height: 48px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.advanced-google-logo {
+  content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+  display: inline-block;
+  height: 24px;
+  width: 74px;
+}
+
+.nav-buttons-wrapper {
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 4px;
+  justify-content: flex-end;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  user-select: none;
+  position: relative;
+}
+
+.nav-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-button:hover {
+  text-decoration: underline;
 }
