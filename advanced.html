@@ -26,15 +26,96 @@
 
     <div class="div-line"></div>
 
-    <section class="search-bar">
-      <form action="https://google.com/search">
-        <input type="text" name="q" />
-        <input type="submit" value="Advanced Search" />
+    <section class="advanced-principal">
+      <form action="https://google.com/search" id="advanced-form" method="get">
+        <div class="advanced-principal-initial-text">Find pages with...</div>
+        <div class="advanced-principal-inputs-wrapper">
+          <div class="advanced-principal-input">
+            <div class="advanced-principal-input-text-wrapper">
+              <div class="advanced-principal-input-text">
+                <label>all these words:</label>
+              </div>
+            </div>
+            <div class="advanced-principal-input-blank-wrapper">
+              <input
+                class="advanced-principal-input-blank"
+                autofocus="autofocus"
+                type="text"
+                name="as_q"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="advanced-principal-inputs-wrapper">
+          <div class="advanced-principal-input">
+            <div class="advanced-principal-input-text-wrapper">
+              <div class="advanced-principal-input-text">
+                <label>this exact word or phrase:</label>
+              </div>
+            </div>
+            <div class="advanced-principal-input-blank-wrapper">
+              <input
+                class="advanced-principal-input-blank"
+                type="text"
+                name="as_epq"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="advanced-principal-inputs-wrapper">
+          <div class="advanced-principal-input">
+            <div class="advanced-principal-input-text-wrapper">
+              <div class="advanced-principal-input-text">
+                <label>any of these words:</label>
+              </div>
+            </div>
+            <div class="advanced-principal-input-blank-wrapper">
+              <input
+                class="advanced-principal-input-blank"
+                type="text"
+                name="as_oq"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="advanced-principal-inputs-wrapper">
+          <div class="advanced-principal-input">
+            <div class="advanced-principal-input-text-wrapper">
+              <div class="advanced-principal-input-text">
+                <label>none of these words:</label>
+              </div>
+            </div>
+            <div class="advanced-principal-input-blank-wrapper">
+              <input
+                class="advanced-principal-input-blank"
+                type="text"
+                name="as_eq"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="advanced-principal-inputs-wrapper">
+          <div class="advanced-principal-input">
+            <div class="advanced-principal-input-text-wrapper">
+              <div class="advanced-principal-input-text"></div>
+            </div>
+            <div class="advanced-principal-input-blank-wrapper">
+              <input
+                class="advanced-principal-button"
+                style="
+                  -webkit-user-select: none;
+                  user-select: none;
+                  line-height: 100%;
+                  height: 30px;
+                  min-width: 120px;
+                "
+                value="Pesquisa avançada"
+                type="submit"
+              />
+            </div>
+          </div>
+        </div>
       </form>
     </section>
-
-    <footer>
-      <h4>Made by Yan</h4>
-    </footer>
   </body>
 </html>
