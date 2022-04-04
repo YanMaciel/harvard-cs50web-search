@@ -26,17 +26,6 @@ body {
   box-sizing: border-box;
 }
 
-.nav-logo-wrapper {
-  height: 48px;
-  vertical-align: middle;
-  white-space: nowrap;
-  -webkit-box-align: center;
-  align-items: center;
-  user-select: none;
-  padding-right: 30px;
-  box-sizing: border-box;
-}
-
 .nav-buttons-wrapper {
   box-sizing: border-box;
   height: 48px;
@@ -71,6 +60,17 @@ body {
 
 /* Advanced Search */
 
+.advanced-nav-logo-wrapper {
+  height: 48px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  user-select: none;
+  padding: 10px 30px 0px 10px;
+  box-sizing: border-box;
+}
+
 .advanced-google-logo {
   content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
   display: inline-block;
@@ -81,7 +81,7 @@ body {
 .app-bar {
   color: #d93025;
   font-size: 20px;
-  margin: 25px 35px;
+  margin: 25px 35px 25px 45px;
 }
 
 .advanced-principal {
