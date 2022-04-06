@@ -16,6 +16,25 @@ body {
   display: block;
 }
 
+div {
+  display: block;
+}
+
+footer {
+  background: #f2f2f2;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+footer h4 {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  text-align: center;
+  margin-top: 18%;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -78,13 +97,128 @@ body {
   aspect-ratio: auto 272 / 92;
 }
 
+.search-bar-section {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  max-height: 160px;
+  display: block;
+}
+
+.search-bar-form {
+  display: block;
+  margin-top: 0em;
+}
+
 .div-line {
   border-bottom: 1px solid #ebebeb;
 }
 
-/* Google Search */
+.search-bar-div-wrapper {
+  margin: 0 auto;
+  padding-top: 6px;
+  width: auto;
+  max-width: 584px;
+  position: relative;
+}
+
+.search-bar-wrapper {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.search-bar-wrapper:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search-bar-whole {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+  flex-wrap: wrap;
+}
+
+.search-bar {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
+  font-size: 16px;
+}
+
+.search-bar-input {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search-bar-buttons-wrapper {
+  height: 70px;
+  padding-top: 18px;
+}
+
+.search-bar-button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  appearance: auto;
+  white-space: pre;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.search-bar-button:hover {
+  border: 1.5px solid #d6d8da;
+}
+
+.space {
+  flex-grow: 1;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  display: block;
+}
 
 /* Image Search */
+
+.images {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
+}
 
 /* Advanced Search */
 

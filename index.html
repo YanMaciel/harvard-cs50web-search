@@ -29,15 +29,49 @@
       </div>
     </section>
 
-    <section class="search-bar">
-      <form action="https://google.com/search">
-        <input type="text" name="q" />
-        <input type="submit" value="Google Search" />
+    <section class="search-bar-section">
+      <form
+        class="search-bar-form"
+        action="https://google.com/search"
+        method="GET"
+      >
+        <div>
+          <div class="search-bar-div-wrapper">
+            <div class="search-bar-wrapper">
+              <div class="search-bar-whole">
+                <div class="search-bar">
+                  <input
+                    class="search-bar-input"
+                    maxlength="2048"
+                    aria-autocomplete="both"
+                    autocomplete="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    autofocus
+                    title="Search"
+                    type="text"
+                    name="q"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="search-bar-buttons-wrapper">
+              <div style="text-align: -webkit-center">
+                <input
+                  type="submit"
+                  value="Google Search"
+                  class="search-bar-button"
+                />
+                <input
+                  type="submit"
+                  value="I'm Feeling Lucky"
+                  class="search-bar-button"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </form>
     </section>
-
-    <footer>
-      <h4>Made by Yan</h4>
-    </footer>
   </body>
 </html>
